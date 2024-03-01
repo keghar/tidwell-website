@@ -20,7 +20,7 @@ const variantStyles = {
     slate:
       "ring-gray-600 text-gray-700 hover:text-slate-900 hover:ring-gray-500  hover:bg-gray-300 active:bg-gray-100 active:text-gray-600 focus-visible:outline-blue-200 focus-visible:ring-slate-300",
     white:
-      "ring-slate-700 text-white hover:ring-slate-500 active:ring-slate-700 active:text-slate-400 focus-visible:outline-white",
+      "ring-gray-700 text-gray-900 hover:ring-gray-500 active:ring-gray-700 active:text-slate-600 focus-visible:outline-white bg-white hover:bg-gray-100",
   },
 };
 

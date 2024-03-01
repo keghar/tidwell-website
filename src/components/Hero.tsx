@@ -19,7 +19,7 @@ export default function Example() {
               </span>
             </h1>
             <div className="mt-10 flex items-center gap-x-6 mx-auto lg:mx-none justify-center md:justify-start">
-              <Button className="" color="orange">
+              <Button href="#contact" className="" color="orange">
                 Contact
               </Button>
               <Button color="blue">Services</Button>

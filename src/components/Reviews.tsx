@@ -2,6 +2,7 @@ import React from "react";
 import Divider from "./Divider";
 import { StarIcon } from "@heroicons/react/20/solid";
 import About from "./About";
+import { Button } from "./Button";
 
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(" ");
@@ -49,7 +50,7 @@ const Reviews = () => {
             className="fill-current text-blue-100"></path>
         </svg>
       </div>
-      <div className="bg-gradient-to-b from-blue-100 to-blue-300 text-gray-900 text-5xl text-center py-48">
+      <div className="bg-gradient-to-b from-blue-100 to-blue-300 text-gray-900 text-5xl text-center py-20">
         <h2 className="pb-8">Reviews</h2>
         <ul
           role="list"
@@ -88,6 +89,11 @@ const Reviews = () => {
             </li>
           ))}
         </ul>
+        <div className="mt-10 mb-10">
+          <Button variant="outline" color="white">
+            See More
+          </Button>
+        </div>
       </div>
       <About />
     </div>

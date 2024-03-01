@@ -54,7 +54,7 @@ function Contact() {
   });
 
   return (
-    <section id="contact" className="relative">
+    <section id="contact" className="relative mt-20">
       <Container className="flex flex-col text-center pb-10 text-gray-700">
         <h2 className="text-4xl md:text-5xl lg:text-6xl mb-10 text-gray-700">
           Contact
